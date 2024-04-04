@@ -4,22 +4,23 @@ import { faSearch, faUser } from '@fortawesome/free-solid-svg-icons';
 
 const Navbar = () => {
   return (
-    <div className='flex justify-between items-center h-20'>
+    <div className='flex justify-between items-center px-4 h-20 absolute z-10 w-full'>
       <h1 className='text-3xl font-bold uppercase p-5 pl-10'>Jadoo.</h1>
-      <ul className='flex items-center'>
-        <li className='pr-10 text-gray-500 '>Home</li>
-        <li className='pr-10 text-gray-500'>Destinations</li>
-        <li className='pr-10 text-gray-500'>Travel</li>
-        <li className='pr-10 text-gray-500'>View</li>
-        <li className='pr-10 text-gray-500'>Book</li>
+      <ul className='flex items-center flex-grow justify-center'>
+        <li className='pr-10 text-white font-semibold'>Home</li>
+        <li className='pr-10  text-white font-semibold'>Destinations</li>
+        <li className='pr-10  text-white font-semibold'>Travel</li>
+        <li className='pr-10  text-white font-semibold'>View</li>
+        <li className='pr-10  text-white font-semibold'>Book</li>
       </ul>
-      <div className='flex items-center pr-8'>
-        <FontAwesomeIcon icon={faSearch} className='text-black mr-8' /> 
-        <FontAwesomeIcon icon={faUser} className='text-black mr-8' /> 
+      <div className='flex items-center'>
+        <FontAwesomeIcon icon={faSearch} className='text-white mr-8' /> 
+        <FontAwesomeIcon icon={faUser} className='text-white mr-8' /> 
       </div>
     </div>
   );
 };
 
 export default Navbar;
+
 
