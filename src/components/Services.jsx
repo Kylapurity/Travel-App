@@ -31,13 +31,13 @@ const Services = () => {
   return (
     <div className='flex flex-col items-center pt-5'>
       <h1 className='text-3xl font-bold underline uppercase'>We Offer Best Services</h1>
-      <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mt-8 p-10'>
+      <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mt-4 p-10'>
         {servicesData.map((service, index) => (
           <div key={index} className='w-full'>
             <img src={service.img} alt={service.title} className='w-full h-40 object-cover' />
             <div className='p-4'>
               <h2 className='text-xl font-bold mb-2 underline text-blue-950'>{service.title}</h2>
-              <p className='text-gray-700'>{service.description}</p>
+              <p className='text-gray-700 font-semibold'>{service.description}</p>
             </div>
           </div>
         ))}
