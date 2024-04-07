@@ -2,6 +2,7 @@ import Destinations from "./components/Destinations";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Services from "./components/Services";
+import Testimonials from "./components/Testimonials";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
     <Hero/>
     <Services/>
     <Destinations/>
+    <Testimonials/>
     </div>
   );
 }
