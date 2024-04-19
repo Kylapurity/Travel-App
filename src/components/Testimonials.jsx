@@ -19,7 +19,7 @@ import "slick-carousel/slick/slick-theme.css";
     describe:"My experince was amoung my best. I had a good quality time with my family. I will definitely use Travel App for my next vacation",
   },
   {
-    image:"https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.youworkforthem.com%2Fphoto%2F170884%2Fhandsome-young-african-man-on-the-beach&psig=AOvVaw1txkYJU4zDttfUJmlKOTon&ust=1713622846602000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCPCapdu8zoUDFQAAAAAdAAAAABAE",
+    image:"https://img.freepik.com/premium-photo/cheerful-african-american-man-using-smartphone-beach_128034-1362.jpg",
     name:"Mike",
     describe:"Searchig for a place to spend your vacation? Travel App is the best place to book your flight and hotel. I had a good time with my family during my vacation. I will definitely use Travel App for my next vacation",
   }
