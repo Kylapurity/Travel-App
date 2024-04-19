@@ -37,7 +37,7 @@ const Services = () => {
             <img src={service.img} alt={service.title} className='w-full h-40 object-cover' />
             <div className='p-4'>
               <h2 className='text-xl font-bold mb-2 underline text-blue-950'>{service.title}</h2>
-              <p className='text-gray-700 font-semibold'>{service.description}</p>
+              <p className='text-gray-700 font-semibold leading-snug '>{service.description}</p>
             </div>
           </div>
         ))}
