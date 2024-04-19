@@ -36,7 +36,7 @@ const Testimonials = () => {
   };
 
   return (
-    <div className='p-10 flex pt-5'>
+    <div className='p-20 flex pt-15'>
       <div className='w-3/4'>
         <h1 className='text-gray-600 uppercase text-xl font-bold'>Testimonials</h1>
         <h2 className='text-blue-950 text-5xl font-bold pt-5'>What People Say <br/> About Us.</h2>
