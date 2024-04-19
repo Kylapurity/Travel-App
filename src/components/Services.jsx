@@ -33,11 +33,13 @@ const Services = () => {
       <h1 className='text-3xl font-bold underline uppercase'>We Offer The Best Services</h1>
       <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mt-4 p-20'>
         {servicesData.map((service, index) => (
-          <div key={index} className='w-full'>
-            <img src={service.img} alt={service.title} className='w-full h-40 object-cover' />
-            <div className='p-4'>
-              <h2 className='text-xl font-bold mb-2 underline text-blue-950'>{service.title}</h2>
-              <p className='text-gray-700 font-semibold leading-snug '>{service.description}</p>
+          <div key={index} className='relative w-full'>
+            <img src={service.img} alt={service.title} className='w-full h-60 object-cover' />
+            <div className='absolute top-0 left-0 w-full h-full opacity-0 hover:opacity-100 transition-opacity duration-300'>
+              <div className='p-4 bg-white bg-opacity-90'>
+                <h2 className='text-xl font-bold mb-2 underline text-blue-950'>{service.title}</h2>
+                <p className='text-gray-700 font-semibold leading-snug'>{service.description}</p>
+              </div>
             </div>
           </div>
         ))}
@@ -47,6 +49,7 @@ const Services = () => {
 };
 
 export default Services;
+
 
 
 
