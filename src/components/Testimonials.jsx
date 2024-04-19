@@ -12,7 +12,7 @@ const Data = [
   {
     image: "https://images.unsplash.com/photo-1519338381761-c7523edc1f46?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGVvcGxlJTIwb24lMjB0aGUlMjBiZWFjaHxlbnwwfHwwfHx8MA%3D%3D",
     name: "Alex",
-    describe: "My experience with Travel App was amazing. I was able to book my flight and hotel at a very affordable price. I will definitely recommend Travel App to my friends and family.",
+    describe: "Our experience with Travel App was amazing.We were able to book our flights and hotels at a very affordable prices. I will definitely recommend Travel App to my friends and family.",
   },
   {
     image: "https://media.istockphoto.com/id/1369510076/photo/happy-smiling-african-woman-sitting-on-deck-chair-at-beach.jpg?s=612x612&w=0&k=20&c=y3vJdz2Ss2sVqbzK-LqWbmghT1X9hph4pDddnBs0IY4=",
@@ -46,8 +46,8 @@ const Testimonials = () => {
           {Data.map((item, index) => (
             <div key={index} className='flex flex-col items-center justify-center'>
               <img src={item.image} alt="testimonials" className='w-40 h-40 rounded-full'/>
-              <p className='text-gray-600 text-center font-bold'>{item.name}</p>
-              <p className='text-gray-600 text-center'>{item.describe}</p>
+              <p className='text-gray-600 text-center font-bold uppercase'>{item.name}</p>
+              <p className='text-gray-600 text-center font-semibold'>{item.describe}</p>
             </div>
           ))}
         </Slider>
