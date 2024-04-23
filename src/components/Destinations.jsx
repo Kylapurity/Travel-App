@@ -23,7 +23,7 @@ const destinationData = [
 
 const Destinations = () => {
   return (
-    <div className="flex flex-col items-center">
+    <div className="flex flex-col items-center cursor-pointer">
       <h1 className=" text-2xl font-bold underline uppercase ">Our Destinations</h1>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-5">
         {destinationData.map((destination, index) => (
